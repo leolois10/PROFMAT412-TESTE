@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Mais informações sobre mim
 
-Acesse: [Leonardo LOis](info/index.html){target="_blank"}
+Acesse: [Leonardo Lois](info/index.html){target="_blank"}
 
 # Página dos alunos da disciplina
 
@@ -63,7 +63,7 @@ install.packages(pkgs)
 
 ```{r eval=FALSE}
 # Configurando o nome e email do github
-usethis::use_git_config(user.name = "YourName", user.email = "your@mail.com")
+usethis::use_git_config(user.name = "leolois10", user.email = "leoloisprofmat2022@mail.com")
 # gerando um token
 usethis::create_github_token() 
 # inserindo o token no arquivo '.Renviron'
